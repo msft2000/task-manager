@@ -1,0 +1,16 @@
+.TodoSearch{
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: 300;
+    text-align: center;
+}
+.TodoSearch:focus{
+    outline: 2px solid #EEAA7B;
+}
+.actualSearchValue{
+    text-align: center;
+}

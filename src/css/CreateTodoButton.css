@@ -1,0 +1,11 @@
+.CreateTodoButton{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    margin: 0;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+}

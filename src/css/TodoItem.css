@@ -1,0 +1,35 @@
+.TodoItem{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto 10px auto;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+.TodoItem--complete{
+    opacity: 0.3;
+}
+.Icon-todo{
+    vertical-align: middle;
+}
+.Icon-todo--complete{
+    color: green;
+}
+.TodoItem-p{
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    text-align: center;
+    margin: 0 10px 0 10px;
+    
+}
+.TodoItem-p--complete{
+    text-decoration: line-through;
+}
+.Icon-todo-delete:hover{
+    color: red;
+}

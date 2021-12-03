@@ -2,11 +2,16 @@
     display: block;
     margin: 0 auto;
     font-size: 20px;
-    border-radius: 10px;
-    border: 2px solid black;
+    border-radius: 15px;
+    border: 2px solid white;
     padding: 5px;
     font-weight: 300;
     text-align: center;
+    color:white;
+    background-color: transparent;
+}
+.TodoSearch::placeholder{
+    color: white;
 }
 .TodoSearch:focus{
     outline: 2px solid #EEAA7B;

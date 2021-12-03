@@ -1,11 +1,11 @@
 import React from "react";
-import { TodoContext } from "../TodoContext/index.js"
 import '../css/TodoCounter.css';
 
 function TodoCounter(){
-    const {totalTodos,completedTodos} = React.useContext(TodoContext);
     return(
-        <h2 className="TodoCounter">{`Has completado ${completedTodos} de ${totalTodos} TODOs`}</h2>
+        <React.Fragment>
+            <h1 className="titulo-principal">TaskList App</h1>
+        </React.Fragment>
     );
 }
 export { TodoCounter };

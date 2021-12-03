@@ -8,7 +8,15 @@ function TodoProvider (props) {
     const completedTodos = todos.filter(todo=>todo.completed).length;
     const totalTodos = todos.length;
     let searchedTodos = [];
-
+    const deleteCompletedTodos = () => {
+        const auxTodos=[];
+        todos.forEach(todo => {
+            if(todo.completed===false){
+                auxTodos.push(todo);
+            }
+        });
+        saveTodos(auxTodos);
+    }
     if(searchedTodos.length){
         searchedTodos=todos;
     }else{
@@ -44,7 +52,8 @@ function TodoProvider (props) {
             completeTodos,
             deleteTodos,
             openModal,
-            setOpenModal
+            setOpenModal,
+            deleteCompletedTodos
         }}>
             {props.children}
         </TodoContext.Provider>

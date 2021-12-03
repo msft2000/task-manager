@@ -1,34 +1,46 @@
 .TodoItem{
     display: flex;
-    width: 60%;
+    width: 100%;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 10px auto 10px auto;
     list-style: none;
-    border: 1px solid black;
-    border-radius: 15px;
-
-}
-.TodoItem--complete{
-    opacity: 0.3;
+    color: white;
+    background-color: #74112d;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .Icon-todo{
     vertical-align: middle;
+    margin-left: -20px;
+    background-color: white;
+    padding: 1px 5px;
+    border-radius: 100%;
 }
 .Icon-todo--complete{
-    color: green;
+    background-color: #ff0f79;
+    padding: 1px 5px;
+    border-radius: 100%;
 }
 .TodoItem-p{
     display: flex;
     align-items: center;
     min-height: 40px;
-    text-align: center;
-    margin: 0 10px 0 10px;
-    
+    width: 165px;
+    text-align: left;
+    margin: 0 0 0 10px;
+    font-size: small;
+    font-weight: 100;
 }
 .TodoItem-p--complete{
     text-decoration: line-through;
+}
+.Icon-todo-delete{
+    content:url("../assets/imgs/basura2.svg");
+    background-color: white;
+    width: 14px;
+    padding: 3px 8px;
+    margin: 0 25px 0 0;
+    border-radius: 5px;
 }
 .Icon-todo-delete:hover{
     color: red;

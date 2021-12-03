@@ -1,0 +1,19 @@
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 70%;
+}
+form label{
+    font-size: x-large;
+    margin: 15px 0;
+}
+form textarea{
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+form button{
+    font-size: large;
+    margin: 0 10px;
+}

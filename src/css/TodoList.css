@@ -1,0 +1,60 @@
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 30px 20px;
+}
+.todo-list--encabezado{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3c0c16;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.todo-list--encabezado p{
+    color: white;
+    font-size: smaller;
+}
+.todo-list--encabezado p{
+    margin-right: -75px;
+}
+.todo-list--encabezado p:first-child{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.todo-list--encabezado p:last-child{
+    margin-right: -25px;
+    margin-left: 0px;
+} 
+.no-tasks-text{
+    color: white;
+    background-color: #74112d;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 400;
+}
+.todo-list--footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c0c16;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.todo-list--footer p{
+    font-size: x-small;
+    margin-right: 20px;
+}
+.todo-list--footer p:first-child{
+    display: flex;
+    align-items: center;    
+}
+.Icon-todo-delete-footer{
+    content:url("../assets/imgs/basura2.svg");
+    background-color: white;
+    width: 12px;
+    padding: 1px 5px;
+    margin: 0 5px 0 15px;
+    border-radius: 5px;
+}

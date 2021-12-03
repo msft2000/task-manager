@@ -1,11 +1,13 @@
 .CreateTodoButton{
-    position: absolute;
-    bottom: 20px;
-    right: 50px;
-    margin: 0;
-    border: none;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    padding: 7px;
+    margin: 10px auto 0 auto;
+    border: 2px solid #3c0c16;;
     border-radius: 100px;
     color: white;
     font-size: 25px;
     font-weight: 100;
+    background-color: #74112d;
 }

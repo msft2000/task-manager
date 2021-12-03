@@ -13,8 +13,10 @@ function AppUI(){
     <React.Fragment>
         <TodoCounter/>
         <TodoSearch/>
+        <CreateTodoButton 
+          setOpenModal={setOpenModal}
+        />
         <TodoList>
-          {!searchedTodos.length && <p>Crea tu primer Todo!</p>}
           {searchedTodos.map(todo=>(
             !todo.completed && 
             <TodoItem 
@@ -37,9 +39,6 @@ function AppUI(){
         {openModal && <Modal>
           <TodoForm />
         </Modal>}
-        <CreateTodoButton 
-          setOpenModal={setOpenModal}
-        />
       </React.Fragment>);
 }
 export { AppUI };

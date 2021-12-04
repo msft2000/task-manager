@@ -1,8 +1,8 @@
-.CreateTodoButton{
+/* .CreateTodoButton{
     display: flex;
     align-self: center;
     justify-self: center;
-    padding: 7px;
+    padding: 1px 5px;
     margin: 10px auto 0 auto;
     border: 2px solid #3c0c16;;
     border-radius: 100px;
@@ -10,4 +10,11 @@
     font-size: 25px;
     font-weight: 100;
     background-color: #74112d;
+} */
+.CreateTodoButton{
+    width: 45px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin: 10px auto 0 auto;
 }

@@ -9,6 +9,9 @@
     background-color: #74112d;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+.TodoItem--complete{
+    opacity: .8;
+}
 .Icon-todo{
     vertical-align: middle;
     margin-left: -20px;

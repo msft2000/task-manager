@@ -7,7 +7,7 @@ function TodoItem(props){
             <span 
                 className={`Icon-todo ${props.completed && 'Icon-todo--complete'}`}
                 onClick={props.onComplete}
-            >&#10004;</span>
+            ></span>
             <span
                 onClick={props.onDelete}
                 className="Icon-todo-delete"

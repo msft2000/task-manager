@@ -16,12 +16,12 @@
     vertical-align: middle;
     margin-left: -20px;
     background-color: white;
-    padding: 1px 5px;
     border-radius: 100%;
+    min-width: 22px;
+    min-height: 22px;
 }
 .Icon-todo--complete{
     background-color: #ff0f79;
-    padding: 1px 5px;
     border-radius: 100%;
 }
 .TodoItem-p{
